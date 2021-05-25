@@ -11464,4 +11464,40 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #6f4d75 url("/static/img/bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.overlay {
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sidebar {
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.profile-image {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .profile-image {
+    width: 100%;
+  }
+}
+
+.card.bg-darkened {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+}
 /*# sourceMappingURL=theme.css.map */

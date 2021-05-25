@@ -11,3 +11,39 @@
 // $font-family-base: 'Cairo', sans-serif;
 
 @import '../../node_modules/bootstrap/scss/bootstrap';
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: rgb(111, 77, 117) url('/static/img/bg.jpg') no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.overlay {
+	min-height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sidebar {
+	min-height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.profile-image {
+	width: 50%;
+
+	@include media-breakpoint-up(md) {
+		width: 100%;
+	}
+}
+
+.card {
+	&.bg-darkened {
+		color: $white;
+		background: rgba(0, 0, 0, 0.3);
+	}
+}
