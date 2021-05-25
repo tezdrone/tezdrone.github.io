@@ -1,0 +1,22 @@
+{
+  "name": "tezdrone.github.io",
+  "version": "1.0.0",
+  "description": "tezdrone.github.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tezdrone/tezdrone.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tezdrone/tezdrone.github.io/issues"
+  },
+  "homepage": "https://github.com/tezdrone/tezdrone.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}
