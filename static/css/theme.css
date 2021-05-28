@@ -11465,15 +11465,13 @@ fieldset:disabled .btn {
   }
 }
 
-html,
-body {
-  height: 100%;
+html {
+  background: #002950 url("../img/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 body {
-  background: #6f4d75 url("/static/img/bg.jpg") no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
+  background: transparent;
 }
 
 .overlay {
