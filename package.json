@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/tezdrone/tezdrone.github.io#readme",
   "dependencies": {
-    "bootstrap": "^5.0.1",
-    "bootstrap-icons": "^1.5.0"
+    "bootstrap": "^5.0.1"
   }
 }
